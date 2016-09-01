@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+
+    <tab
+        icon="@drawable/friends"
+        id="@+id/tab_friends"
+        title="Friends" />
+    <tab
+        icon="@mipmap/ic_launcher"
+        id="@+id/tab_android"
+        title="Nearby" />
+    <tab
+        icon="@drawable/favorites"
+        id="@+id/tab_favorites"
+        title="Favorites" />
+
+</tabs>
