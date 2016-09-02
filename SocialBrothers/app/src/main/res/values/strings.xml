@@ -9,8 +9,8 @@
     <string name="person_age">20</string>
     <string name="url">https://baconipsum.com/api/?type=meat-and-filler</string>
     <string name="preference_category_title">Style</string>
-    <string name="preference_checkbox_title">Light Background</string>
-    <string name="preference_checkbox_summary">Want a light background ?</string>
+    <string name="preference_checkbox_title">Light Toolbar</string>
+    <string name="preference_checkbox_summary">Want a light Toolbar ?</string>
 
 
 
