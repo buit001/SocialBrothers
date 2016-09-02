@@ -16,9 +16,9 @@ import android.webkit.WebView;
  */
 public class CardView_Fragment extends Fragment {
 
-    private RecyclerView mRecyclerView;
-    private RecyclerView.Adapter mAdapter;
-    private RecyclerView.LayoutManager mLayoutManager;
+    private RecyclerView recyclerView;
+    private RecyclerView.Adapter adapter;
+    private RecyclerView.LayoutManager layoutManager;
 
     @TargetApi(Build.VERSION_CODES.M)
     @Override
@@ -26,6 +26,14 @@ public class CardView_Fragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.cardlist_fragment, container, false);
+
+        recyclerView = (RecyclerView) view.findViewById(R.id.cardList);
+
+        layoutManager = new LinearLayoutManager(view.getContext());
+        recyclerView.setLayoutManager(layoutManager);
+
+        adapter = new RecyclerAdapter();
+        recyclerView.setAdapter(adapter);
 
 
         return view;

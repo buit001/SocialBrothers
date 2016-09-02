@@ -2,12 +2,17 @@
     <string name="app_name">SocialBrothers</string>
     <string name="action_settings">Losse Activity</string>
     <string name="title_activity_losse_activity">Losse_activity</string>
-    <string name="tab_fav">Favorite</string>
-    <string name="tab_android">Android</string>
-    <string name="tab_friends">Friends</string>
+    <string name="tab_fav">Favorite settings</string>
+    <string name="tab_android">WebView</string>
+    <string name="tab_friends">FriendList</string>
     <string name="person_name">Tan</string>
     <string name="person_age">20</string>
     <string name="url">https://baconipsum.com/api/?type=meat-and-filler</string>
+    <string name="preference_category_title">Style</string>
+    <string name="preference_checkbox_title">Light Background</string>
+    <string name="preference_checkbox_summary">Want a light background ?</string>
+
+
 
 
 
