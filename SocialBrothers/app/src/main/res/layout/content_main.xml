@@ -4,23 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/main_layout"
-
-    tools:showIn="@layout/activity_main">
+    tools:showIn="@layout/activity_main"
+    android:layout_marginTop="?attr/actionBarSize"
+    >
     <!-- This could be your fragment container, or something -->
     <FrameLayout
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/bottomBar"
        >
 
         <fragment
             android:id="@+id/fragment"
-            android:name="android.webkit.WebViewFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_gravity="center" />
+            android:layout_gravity="center"
+            android:name="android.webkit.WebViewFragment"
+            tools:layout="@layout/design_layout_snackbar_include" />
 
     </FrameLayout>
 

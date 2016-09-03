@@ -34,6 +34,7 @@ public class CardView_Fragment extends Fragment {
 
         adapter = new RecyclerAdapter();
         recyclerView.setAdapter(adapter);
+        
 
 
         return view;
